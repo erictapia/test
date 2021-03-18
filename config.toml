@@ -1,4 +1,4 @@
-baseURL = "https://github.com/erictapia/test"
+baseURL = "https://erictapia.github.io/test"
 languageCode = "en-us"
 title = "SD-Eric"
 theme = "sd-eric"
