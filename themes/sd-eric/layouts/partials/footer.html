@@ -1,0 +1,10 @@
+<div class="footer">
+    <div>
+        {{ range site.Params.social }}
+            <a href="{{ .link | safeURL }}"><img class="social_icon" src="{{ .icon | relURL }}"></a>
+        {{ end }}
+    </div>
+    <div>
+        <p class="copyright">{{ replace .Site.Copyright "{year}" now.Year }}</p>
+    </div>
+</div>

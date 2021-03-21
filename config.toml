@@ -2,3 +2,29 @@ baseURL = "https://erictapia.github.io/test"
 languageCode = "en-us"
 title = "SD-Eric"
 theme = "sd-eric"
+
+# Site
+copyright = "© {year} sd-eric"
+
+[params]
+
+# ----- SOCIAL MEDIA ICONS ----- #
+    [[params.social]]
+    icon = "svg/linkedin_icon.svg"
+    link = "https://www.linkedin.com/in/erictapianetworking"
+
+    [[params.social]]
+    icon = "svg/twitter_rounded.svg"
+    link = "https://twitter.com/networkpistol"
+
+    [[params.social]]
+    icon = "svg/instagram.svg"
+    link = "https://www.instagram.com/networkpistolero"
+
+    [[params.social]]
+    icon = "svg/github_octocat.svg"
+    link = "https://github.com/erictapia"
+
+    [[params.social]]
+    icon = "svg/discord.svg"
+    link = "https://discord.gg/XqmBb7bm"
